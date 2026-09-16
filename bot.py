@@ -20,7 +20,7 @@ from telegram.ext import (
     ContextTypes,
 )
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", 8933917086)
 PORT = int(os.environ.get("PORT", 10000))
 
 logging.basicConfig(
