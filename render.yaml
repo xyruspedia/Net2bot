@@ -8,7 +8,7 @@ services:
     envVars:
       - key: BOT_TOKEN
         scope: run
-        value: 8818633994:AAG111MwN0QjIsTklXIRP_bgUFnZEDG6cA8
+        value: kontol
       - key: WEBHOOK_URL
         scope: run
         value: https://net2bot.onrender.com
